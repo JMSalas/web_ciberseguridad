@@ -6,6 +6,8 @@ Este proyecto es una aplicación web enfocada en la ciberseguridad, que proporci
 
 El proyecto está organizado en las siguientes carpetas y archivos:
 
+```
+
 .
 ├── assets/
 │   ├── css/
@@ -27,6 +29,7 @@ El proyecto está organizado en las siguientes carpetas y archivos:
 ├── consejos.html
 └── index.html
 
+```
 
 ### Descripción de Archivos:
 
