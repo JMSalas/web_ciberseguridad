@@ -1,0 +1,81 @@
+#header-index {
+    background-image: url('../images/banner-index.jpg');
+    background-size: cover;
+    background-position:center;
+    text-shadow: 2px 2px #000000;
+}
+
+#header-amenazas {
+    background-image: url('../images/banner-amenazas.jpg');
+    background-size: cover;
+    background-position:center;
+    text-shadow: 2px 2px #000000;
+}
+
+#header-consejos {
+    background-image: url('../images/banner-consejos.jpg');
+    background-size: cover;
+    background-position:center;
+    text-shadow: 2px 2px #000000;
+}
+
+#phishing-carousel {
+    background-image: url('../images/phishing.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+#ransomware-carousel {
+    background-image: url('../images/ransomware.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+#malware-carousel {
+    background-image: url('../images/malware.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+#ddos-carousel {
+    background-image: url('../images/ddos.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+.imagen-card {
+    height: 200px;
+}
+
+.amenaza-text {
+    height: 200px;
+    font-size:  1.2em;;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FCE4E6;
+    font-weight:bold;
+    font-size: 0.7em;
+    color: black;
+}
+
+.accordion-body {
+    font-size: 1.2em;
+}
+
+/* Media Query */
+@media only screen and (min-width: 576px) {
+    .imagen-card {
+        height: 300px;
+    }
+
+    .amenaza-text {
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+        .imagen-card {
+        height: 350px;
+    }
+}
